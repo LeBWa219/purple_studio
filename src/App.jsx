@@ -57,6 +57,10 @@ export default function App() {
         </div>
         <div className="container">
           <p className="footer-credits">
+            <a href="privacy.html" className="footer-policy">
+              Политика конфиденциальности (152-ФЗ)
+            </a>
+            <br />
             Демо-фотографии: Wikimedia Commons — Köttbulleledaren, Theknowhau, Nunolupus,
             Shixart1985 (CC BY-SA). На живом сайте заменяются работами студии.
           </p>

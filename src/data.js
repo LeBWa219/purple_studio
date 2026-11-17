@@ -22,7 +22,7 @@ export const STUDIO = {
   dikidiWidget: "https://dikidi.net/573341?p=1.pi-po&lang=ru",
   rating: 5.0,
   ratingSource: "2ГИС",
-  hours: "ежедневно 9:00 – 20:00",
+  hours: "ежедневно 10:00 – 21:00",
   mapUrl:
     "https://yandex.ru/map-widget/v1/?ll=45.9957919%2C51.5363074&z=18&pt=45.9957919%2C51.5363074%2Cpm2rdm",
 };

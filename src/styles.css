@@ -1102,6 +1102,16 @@ section[id] {
   color: var(--muted-2);
 }
 
+.footer-policy {
+  color: var(--violet);
+  font-weight: 600;
+}
+
+.footer-policy:hover {
+  color: var(--violet-deep);
+  text-decoration: underline;
+}
+
 /* ---------- виджет записи ---------- */
 .booking-overlay {
   position: fixed;
