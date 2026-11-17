@@ -1,7 +1,6 @@
 import { motion } from "motion/react";
 import { Magnetic, KineticLine } from "./ui.jsx";
 import { STUDIO } from "../data.js";
-import LiveFeed from "./LiveFeed.jsx";
 
 const container = {
   hidden: {},
@@ -69,8 +68,6 @@ export default function Hero({ onBook }) {
                   <div className="hero-meta-label">без выходных</div>
                 </div>
               </motion.div>
-
-              <LiveFeed />
             </div>
 
             {/* коллаж из работ */}
@@ -86,12 +83,6 @@ export default function Hero({ onBook }) {
             <div className="collage-small">
               <img src="img/photo-f102310929-960.webp" alt="Французский маникюр с блёстками — работа студии (демо-фото)" />
             </div>
-              <div className="collage-card">
-                <div className="collage-card-title">Свободно сегодня</div>
-                <div className="collage-card-value">
-                  18:30 · <em>окно на брови</em>
-                </div>
-              </div>
               <span className="collage-sparkle collage-sparkle-1">✨</span>
               <span className="collage-sparkle collage-sparkle-2">💜</span>
             </motion.div>

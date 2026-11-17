@@ -469,39 +469,6 @@ section[id] {
   object-fit: cover;
 }
 
-.collage-card {
-  position: absolute;
-  top: 52%;
-  right: -6px;
-  border-radius: var(--radius-sm);
-  border: 1px solid var(--border);
-  background: rgba(255, 255, 255, 0.92);
-  backdrop-filter: blur(10px);
-  padding: 14px 18px;
-  box-shadow: var(--shadow-soft);
-  animation: floaty 8s ease-in-out 1.2s infinite;
-}
-
-.collage-card-title {
-  font-size: 11px;
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-  color: var(--muted-2);
-  font-weight: 700;
-  margin-bottom: 4px;
-}
-
-.collage-card-value {
-  font-family: var(--font-display);
-  font-size: 17px;
-  font-weight: 600;
-}
-
-.collage-card-value em {
-  font-style: italic;
-  color: var(--violet);
-}
-
 .collage-sparkle {
   position: absolute;
   font-size: 26px;
@@ -1792,43 +1759,6 @@ section[id] {
   align-items: flex-start;
 }
 
-.live-feed {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin-top: 28px;
-  padding: 12px 18px;
-  border-radius: 999px;
-  border: 1px solid var(--border);
-  background: var(--surface);
-  box-shadow: var(--shadow-card);
-  max-width: 480px;
-}
-
-.live-dot {
-  width: 9px;
-  height: 9px;
-  border-radius: 50%;
-  background: #4ade80;
-  animation: pulse 2s infinite;
-  flex-shrink: 0;
-}
-
-.live-text {
-  font-size: 14px;
-  color: var(--muted);
-  min-height: 1.4em;
-}
-
-.live-text b {
-  color: var(--ink);
-}
-
-.live-ago {
-  color: var(--muted-2);
-  font-size: 13px;
-}
-
 /* sticky-сцена услуг */
 .showcase {
   height: 260vh;
@@ -2153,9 +2083,6 @@ section[id] {
   .bento-big,
   .bento-wide {
     grid-column: auto;
-  }
-  .live-feed {
-    max-width: 100%;
   }
 }
 
